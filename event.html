@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Registration</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            padding: 20px;
+        }
+        .box {
+            max-width: 500px;
+            margin: 0 auto;
+            background-color: #b9bcc8;
+            padding: 20px;
+           
+        }
+         h1 {
+            text-align: center;
+            color: #ee5a5a;
+            margin-bottom: 20px;
+        }
+         .event-image {
+            width: 100%;
+            height: auto;
+            border-radius: 30px;
+        }
+        h2{
+            color: rgb(219, 54, 54);
+        }
+        .event-details{
+            text-align: center;
+        }
+        .registration-form{
+            text-align: center;
+        }
+
+
+    </style>
+</head>
+<body>
+
+    <div class="box">
+        <h1>Annual Gymnasium Event 2025</h1>
+        <img src="./event.jpeg" class="event-image">
+        <div class="event-details">
+            <h2>Event Details:-</h2><br>
+            <p>The Annual Gymnasium Event 2025 is a gathering for the rising talent in the bodybuilding profession.The event will be full of exciting weightlifting and bodybuilding events.</p><br>
+            <p><strong>Date:</strong> Jan,26,2025</p><br>
+            <p><strong>Time:</strong> 9:00 AM - 5:00 PM</p><br>
+            <p><strong>Location: </strong> Lovely Professional University , Punjab</p><br>
+            <p><strong>Price:</strong> 250 rupees only</p><br>
+        </div>
+        <div class="registration-form">
+            <h2>Register for the Event:-</h2>
+            <form action="#" method="POST">
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" required><br>
+                <br>
+
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" required><br>
+                <br>
+
+                <label for="phone">Phone Number</label>
+                <input type="tel" id="phone" name="phone" required><br>
+                <br>
+                <label for="ticket">Ticket Type</label>
+                <input id="ticket" name="ticket" required><br>
+                <br>
+
+                <label for="message">Additional Information (Optional)</label>
+                <textarea id="message" name="message" rows="4"></textarea><br>
+                <br>
+
+                <button type="submit">Register Now</button>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
